@@ -20,10 +20,10 @@ Preencher, com as suas palavras, a explicação de cada comando.
 
 Cada item tem dois campos:
 
-| Campo | Obrigatório? | O que escrever |
-| --- | --- | --- |
-| **O que faz** | sim | o efeito do comando, em uma ou duas frases |
-| **Quando usar / observação** | não | uma situação real, uma pegadinha, uma variação útil |
+| Campo                        | Obrigatório? | O que escrever                                      |
+| ---------------------------- | ------------ | --------------------------------------------------- |
+| **O que faz**                | sim          | o efeito do comando, em uma ou duas frases          |
+| **Quando usar / observação** | não          | uma situação real, uma pegadinha, uma variação útil |
 
 Os campos estão marcados com `<!-- TODO -->`.
 Apague o comentário `TODO` e escreva no lugar dele.
@@ -68,20 +68,20 @@ Para achar o que ainda falta: Abrir cada arquivo no navegador (via GitHub) ou na
 Cada seção do cheat sheet vive em **um arquivo** e é trabalhada em **uma branch própria**.
 A `main` contém apenas este `README.md` e o índice — o conteúdo chega nela por merge.
 
-| Branch | Arquivo | Seção | Itens | Do que trata |
-| --- | --- | --- | --- | --- |
-| `docs/01-instale-o-git` | [01-instale-o-git.md](01-instale-o-git.md) | Instale o Git | 3 | Onde obter o Git e os clientes desktop do GitHub |
-| `docs/02-configure-a-ferramenta` | [02-configure-a-ferramenta.md](02-configure-a-ferramenta.md) | Configure a ferramenta | 2 | Identidade do autor: nome e e-mail gravados em cada commit |
-| `docs/03-crie-repositorios` | [03-crie-repositorios.md](03-crie-repositorios.md) | Crie repositórios | 2 | As duas formas de começar: criar do zero (`init`) ou copiar um existente (`clone`) |
-| `docs/04-faca-mudancas` | [04-faca-mudancas.md](04-faca-mudancas.md) | Faça mudanças | 6 | O ciclo do dia a dia: diretório de trabalho → área de preparação → commit |
-| `docs/05-mudancas-em-grupo` | [05-mudancas-em-grupo.md](05-mudancas-em-grupo.md) | Mudanças em grupo | 5 | Branches: criar, trocar, integrar e apagar linhas de trabalho paralelas |
-| `docs/06-refatore-nomes-de-arquivos` | [06-refatore-nomes-de-arquivos.md](06-refatore-nomes-de-arquivos.md) | Refatore nomes de arquivos | 3 | Remover e renomear arquivos **sob** controle de versão, não por fora dele |
-| `docs/07-suprima-o-monitoramento` | [07-suprima-o-monitoramento.md](07-suprima-o-monitoramento.md) | Suprima o monitoramento | 2 | `.gitignore`: o que nunca deve entrar no repositório |
-| `docs/08-salve-fragmentos` | [08-salve-fragmentos.md](08-salve-fragmentos.md) | Salve fragmentos | 4 | `stash`: guardar trabalho incompleto sem commitar |
-| `docs/09-revise-o-historico` | [09-revise-o-historico.md](09-revise-o-historico.md) | Revise o histórico | 4 | Ler o passado do projeto: log, diferenças entre branches, conteúdo de um commit |
-| `docs/10-desfaca-commits` | [10-desfaca-commits.md](10-desfaca-commits.md) | Desfaça commits | 2 | `reset`: voltar atrás, com e sem descartar o trabalho |
-| `docs/11-sincronize-mudancas` | [11-sincronize-mudancas.md](11-sincronize-mudancas.md) | Sincronize mudanças | 4 | Conversar com o repositório remoto: fetch, push, pull |
-| | | **Total** | **37** | |
+| Branch                               | Arquivo                                                              | Seção                      | Itens  | Do que trata                                                                       |
+| ------------------------------------ | -------------------------------------------------------------------- | -------------------------- | ------ | ---------------------------------------------------------------------------------- |
+| `docs/01-instale-o-git`              | [01-instale-o-git.md](01-instale-o-git.md)                           | Instale o Git              | 3      | Onde obter o Git e os clientes desktop do GitHub                                   |
+| `docs/02-configure-a-ferramenta`     | [02-configure-a-ferramenta.md](02-configure-a-ferramenta.md)         | Configure a ferramenta     | 2      | Identidade do autor: nome e e-mail gravados em cada commit                         |
+| `docs/03-crie-repositorios`          | [03-crie-repositorios.md](03-crie-repositorios.md)                   | Crie repositórios          | 2      | As duas formas de começar: criar do zero (`init`) ou copiar um existente (`clone`) |
+| `docs/04-faca-mudancas`              | [04-faca-mudancas.md](04-faca-mudancas.md)                           | Faça mudanças              | 6      | O ciclo do dia a dia: diretório de trabalho → área de preparação → commit          |
+| `docs/05-mudancas-em-grupo`          | [05-mudancas-em-grupo.md](05-mudancas-em-grupo.md)                   | Mudanças em grupo          | 5      | Branches: criar, trocar, integrar e apagar linhas de trabalho paralelas            |
+| `docs/06-refatore-nomes-de-arquivos` | [06-refatore-nomes-de-arquivos.md](06-refatore-nomes-de-arquivos.md) | Refatore nomes de arquivos | 3      | Remover e renomear arquivos **sob** controle de versão, não por fora dele          |
+| `docs/07-suprima-o-monitoramento`    | [07-suprima-o-monitoramento.md](07-suprima-o-monitoramento.md)       | Suprima o monitoramento    | 2      | `.gitignore`: o que nunca deve entrar no repositório                               |
+| `docs/08-salve-fragmentos`           | [08-salve-fragmentos.md](08-salve-fragmentos.md)                     | Salve fragmentos           | 4      | `stash`: guardar trabalho incompleto sem commitar                                  |
+| `docs/09-revise-o-historico`         | [09-revise-o-historico.md](09-revise-o-historico.md)                 | Revise o histórico         | 4      | Ler o passado do projeto: log, diferenças entre branches, conteúdo de um commit    |
+| `docs/10-desfaca-commits`            | [10-desfaca-commits.md](10-desfaca-commits.md)                       | Desfaça commits            | 2      | `reset`: voltar atrás, com e sem descartar o trabalho                              |
+| `docs/11-sincronize-mudancas`        | [11-sincronize-mudancas.md](11-sincronize-mudancas.md)               | Sincronize mudanças        | 4      | Conversar com o repositório remoto: fetch, push, pull                              |
+|                                      |                                                                      | **Total**                  | **37** |                                                                                    |
 
 Para ver todas as branches depois do clone:
 
@@ -200,20 +200,20 @@ git push
 
 ## Índice
 
-| # | Arquivo | Seção | Itens | Concluído |
-| --- | --- | --- | --- | --- |
-| 01 | [01-instale-o-git.md](comandos/01-instale-o-git.md) | Instale o Git | 3 | [ ] |
-| 02 | [02-configure-a-ferramenta.md](comandos/02-configure-a-ferramenta.md) | Configure a ferramenta | 2 | [ ] |
-| 03 | [03-crie-repositorios.md](comandos/03-crie-repositorios.md) | Crie repositórios | 2 | [ ] |
-| 04 | [04-faca-mudancas.md](comandos/04-faca-mudancas.md) | Faça mudanças | 6 | [ ] |
-| 05 | [05-mudancas-em-grupo.md](comandos/05-mudancas-em-grupo.md) | Mudanças em grupo | 5 | [ ] |
-| 06 | [06-refatore-nomes-de-arquivos.md](comandos/06-refatore-nomes-de-arquivos.md) | Refatore nomes de arquivos | 3 | [ ] |
-| 07 | [07-suprima-o-monitoramento.md](comandos/07-suprima-o-monitoramento.md) | Suprima o monitoramento | 2 | [ ] |
-| 08 | [08-salve-fragmentos.md](comandos/08-salve-fragmentos.md) | Salve fragmentos | 4 | [ ] |
-| 09 | [09-revise-o-historico.md](comandos/09-revise-o-historico.md) | Revise o histórico | 4 | [ ] |
-| 10 | [10-desfaca-commits.md](comandos/10-desfaca-commits.md) | Desfaça commits | 2 | [ ] |
-| 11 | [11-sincronize-mudancas.md](comandos/11-sincronize-mudancas.md) | Sincronize mudanças | 4 | [ ] |
-| | | **Total** | **37** | |
+| #   | Arquivo                                                                       | Seção                      | Itens  | Concluído |
+| --- | ----------------------------------------------------------------------------- | -------------------------- | ------ | --------- |
+| 01  | [01-instale-o-git.md](comandos/01-instale-o-git.md)                           | Instale o Git              | 3      | [X]       |
+| 02  | [02-configure-a-ferramenta.md](comandos/02-configure-a-ferramenta.md)         | Configure a ferramenta     | 2      | [ ]       |
+| 03  | [03-crie-repositorios.md](comandos/03-crie-repositorios.md)                   | Crie repositórios          | 2      | [ ]       |
+| 04  | [04-faca-mudancas.md](comandos/04-faca-mudancas.md)                           | Faça mudanças              | 6      | [ ]       |
+| 05  | [05-mudancas-em-grupo.md](comandos/05-mudancas-em-grupo.md)                   | Mudanças em grupo          | 5      | [ ]       |
+| 06  | [06-refatore-nomes-de-arquivos.md](comandos/06-refatore-nomes-de-arquivos.md) | Refatore nomes de arquivos | 3      | [ ]       |
+| 07  | [07-suprima-o-monitoramento.md](comandos/07-suprima-o-monitoramento.md)       | Suprima o monitoramento    | 2      | [ ]       |
+| 08  | [08-salve-fragmentos.md](comandos/08-salve-fragmentos.md)                     | Salve fragmentos           | 4      | [ ]       |
+| 09  | [09-revise-o-historico.md](comandos/09-revise-o-historico.md)                 | Revise o histórico         | 4      | [ ]       |
+| 10  | [10-desfaca-commits.md](comandos/10-desfaca-commits.md)                       | Desfaça commits            | 2      | [ ]       |
+| 11  | [11-sincronize-mudancas.md](comandos/11-sincronize-mudancas.md)               | Sincronize mudanças        | 4      | [ ]       |
+|     |                                                                               | **Total**                  | **37** |           |
 
 Marque a coluna **Concluído** com `[x]` conforme for fechando cada arquivo.
 
